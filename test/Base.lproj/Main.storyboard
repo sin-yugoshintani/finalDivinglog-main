@@ -108,36 +108,22 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea-ocean_00003.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="sW3-v5-YzK">
-                                <rect key="frame" x="-176" y="-107" width="588" height="980"/>
-                            </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zKB-RA-PTh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Divinglog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLl-od-9n3">
+                                        <rect key="frame" x="63" y="131" width="288.5" height="83"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="76"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="circle-2" translatesAutoresizingMaskIntoConstraints="NO" id="GEl-xw-pfc">
-                                <rect key="frame" x="-391" y="-212" width="1196" height="1073"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="843" id="5vP-ap-3Hh"/>
-                                    <constraint firstAttribute="height" constant="601" id="C5j-oU-hGy"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Divinglog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLl-od-9n3">
-                                <rect key="frame" x="28" y="101" width="366" height="124"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="414" id="8aj-YO-hws"/>
-                                    <constraint firstAttribute="width" constant="239" id="Exk-ed-t4z"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="Gyt-h6-Vww"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="414" id="jek-Xa-9fQ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="76"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題 15.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ao2-nD-ueY">
-                                <rect key="frame" x="37" y="233" width="341" height="325"/>
+                                <rect key="frame" x="27" y="229" width="341" height="325"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="無題 15のコピー.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7yY-8S-6i7">
@@ -148,18 +134,22 @@
                                 <rect key="frame" x="47" y="671" width="321" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMp-0N-IlI">
-                                <rect key="frame" x="-53" y="496" width="280" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="242" id="hMU-kH-y45"/>
-                                    <constraint firstAttribute="width" constant="242" id="qAy-bu-3Wb"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MakeLog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOk-1E-MAM">
+                                <rect key="frame" x="74" y="614" width="269" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMp-0N-IlI">
+                                <rect key="frame" x="63" y="604" width="280" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ログを製作"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6a-cu-fpi">
-                                <rect key="frame" x="63" y="614" width="280" height="65"/>
+                                <rect key="frame" x="74" y="614" width="258" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
@@ -167,8 +157,8 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="gKL-pd-apb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MakeLog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOk-1E-MAM">
-                                <rect key="frame" x="74" y="614" width="269" height="49"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5a-gT-RlH">
+                                <rect key="frame" x="74" y="718" width="269" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
                                 <nil key="textColor"/>
@@ -183,35 +173,9 @@
                                     <segue destination="Jw9-dJ-yNB" kind="show" id="Z8V-gi-L5b"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5a-gT-RlH">
-                                <rect key="frame" x="74" y="718" width="269" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NEj-S2-Nzg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="sW3-v5-YzK" secondAttribute="bottom" constant="-117" id="8lo-lO-av6"/>
-                            <constraint firstAttribute="trailing" secondItem="sW3-v5-YzK" secondAttribute="trailing" constant="-38" id="BVH-KV-Gja"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="top" secondItem="rCO-5x-IEr" secondAttribute="top" constant="-107" id="Eyn-IB-2LQ"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="leading" secondItem="rCO-5x-IEr" secondAttribute="leading" constant="-176" id="Gi9-V2-xSY"/>
-                            <constraint firstAttribute="bottom" secondItem="sW3-v5-YzK" secondAttribute="bottom" id="QEi-FM-oku"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="top" secondItem="rCO-5x-IEr" secondAttribute="top" constant="-140" id="T0P-PP-RJc"/>
-                            <constraint firstItem="NEj-S2-Nzg" firstAttribute="trailing" secondItem="sW3-v5-YzK" secondAttribute="trailing" constant="2" id="W9l-Hx-UUk"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="top" secondItem="rCO-5x-IEr" secondAttribute="top" id="Wcv-xh-Ipo"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="top" secondItem="rCO-5x-IEr" secondAttribute="top" id="Wl0-cY-Bz8"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="top" secondItem="rCO-5x-IEr" secondAttribute="top" constant="-107" id="bzW-3N-Dxg"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="leading" secondItem="rCO-5x-IEr" secondAttribute="leading" constant="-176" id="ftq-Zn-xO4"/>
-                            <constraint firstAttribute="trailing" secondItem="sW3-v5-YzK" secondAttribute="trailing" constant="-38" id="grT-51-wbz"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="top" secondItem="rCO-5x-IEr" secondAttribute="top" constant="-107" id="lUI-fL-Tpo"/>
-                            <constraint firstAttribute="bottom" secondItem="sW3-v5-YzK" secondAttribute="bottom" constant="-117" id="roS-3x-LYG"/>
-                            <constraint firstAttribute="bottom" secondItem="sW3-v5-YzK" secondAttribute="bottom" constant="-200" id="vGA-NP-K1f"/>
-                            <constraint firstItem="sW3-v5-YzK" firstAttribute="leading" secondItem="rCO-5x-IEr" secondAttribute="leading" constant="-119" id="wiB-AY-emq"/>
-                            <constraint firstAttribute="bottom" secondItem="sW3-v5-YzK" secondAttribute="bottom" constant="23" id="xSn-95-sUx"/>
-                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="XTN-GD-xHk"/>
@@ -270,10 +234,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circle-2" width="2000" height="2000"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>
-        <image name="sea-ocean_00003.jpeg" width="491.51998901367188" height="737.280029296875"/>
         <image name="無題 15.jpg" width="80.372093200683594" height="167.44186401367188"/>
         <image name="無題 15のコピー 2.jpg" width="168.28152465820312" height="58.697948455810547"/>
         <image name="無題 15のコピー.jpg" width="168.28152465820312" height="58.697948455810547"/>

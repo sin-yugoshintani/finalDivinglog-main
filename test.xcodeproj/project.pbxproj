@@ -10,6 +10,8 @@
 		053664C92855261700D0E595 /* sea-ocean_00003.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 053664C82855261700D0E595 /* sea-ocean_00003.jpeg */; };
 		053664CB28552BC600D0E595 /* circle-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = 053664CA28552BC500D0E595 /* circle-2.svg */; };
 		056E1CAC286CA6D70000591B /* LookLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E1CAB286CA6D70000591B /* LookLogViewController.swift */; };
+		056E1CB0286DE2FA0000591B /* ImageViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E1CAF286DE2FA0000591B /* ImageViewRow.swift */; };
+		056E1CB2286DE4BB0000591B /* ImageViewRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 056E1CB1286DE4BB0000591B /* ImageViewRow.xib */; };
 		05786399284A718600E7AECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05786398284A718600E7AECA /* AppDelegate.swift */; };
 		0578639B284A718600E7AECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578639A284A718600E7AECA /* SceneDelegate.swift */; };
 		0578639D284A718600E7AECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0578639C284A718600E7AECA /* ViewController.swift */; };
@@ -34,6 +36,8 @@
 		053664C82855261700D0E595 /* sea-ocean_00003.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sea-ocean_00003.jpeg"; sourceTree = "<group>"; };
 		053664CA28552BC500D0E595 /* circle-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "circle-2.svg"; sourceTree = "<group>"; };
 		056E1CAB286CA6D70000591B /* LookLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookLogViewController.swift; sourceTree = "<group>"; };
+		056E1CAF286DE2FA0000591B /* ImageViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewRow.swift; sourceTree = "<group>"; };
+		056E1CB1286DE4BB0000591B /* ImageViewRow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewRow.xib; sourceTree = "<group>"; };
 		05786395284A718600E7AECA /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05786398284A718600E7AECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0578639A284A718600E7AECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				057863B4284A798200E7AECA /* EurekaViewController.swift */,
 				0578639E284A718600E7AECA /* Main.storyboard */,
 				056E1CAB286CA6D70000591B /* LookLogViewController.swift */,
+				056E1CAF286DE2FA0000591B /* ImageViewRow.swift */,
+				056E1CB1286DE4BB0000591B /* ImageViewRow.xib */,
 				05A57AA6286B31690095B638 /* 無題 15.jpg */,
 				057863A1284A718900E7AECA /* Assets.xcassets */,
 				057863A3284A718900E7AECA /* LaunchScreen.storyboard */,
@@ -184,6 +190,7 @@
 				053664CB28552BC600D0E595 /* circle-2.svg in Resources */,
 				05A57AA7286B31690095B638 /* 無題 15.jpg in Resources */,
 				053664C92855261700D0E595 /* sea-ocean_00003.jpeg in Resources */,
+				056E1CB2286DE4BB0000591B /* ImageViewRow.xib in Resources */,
 				0599C4D2285AEB0B00F7B639 /* 無題 15のコピー 2.jpg in Resources */,
 				0599C4D3285B0CD000F7B639 /* Assets.xcassets in Resources */,
 				057863A0284A718600E7AECA /* Main.storyboard in Resources */,
@@ -202,6 +209,7 @@
 				057863B5284A798200E7AECA /* EurekaViewController.swift in Sources */,
 				0599C4B92857FF3500F7B639 /* LogTableViewController.swift in Sources */,
 				05786399284A718600E7AECA /* AppDelegate.swift in Sources */,
+				056E1CB0286DE2FA0000591B /* ImageViewRow.swift in Sources */,
 				0578639B284A718600E7AECA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

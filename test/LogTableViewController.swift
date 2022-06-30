@@ -35,7 +35,7 @@ class Save: Object {
 class LogTableViewController: UITableViewController{
     let realm = try! Realm()
     let df = DateFormatter()
-  
+    var countRow = Int()
 
     @IBOutlet weak var newForumButton: UIBarButtonItem!
     
@@ -106,6 +106,10 @@ class LogTableViewController: UITableViewController{
     }
     
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        countRow = indexPath.row
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      
@@ -114,22 +118,24 @@ class LogTableViewController: UITableViewController{
      
                 // ③遷移先ViewCntrollerの取得
                 let nextView = segue.destination as! LookLogViewController
-     
                 // ④値の設定
-                nextView.argString =
-                "test"
+                nextView.argSave = saves[countRow]
             }
-        }
+
+    }
+
     
-    
-    
+}
+
+
+
+
     // Cellのサイズを設定するデリゲートメソッド
 //    func logTableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 //        let save = saves[indexPath.row]
 //
 //    }
 //    
-}
 
 
 
