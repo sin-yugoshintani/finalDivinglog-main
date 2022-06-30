@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "eureka",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/xmartlabs/Eureka",
+      "state" : {
+        "branch" : "master",
+        "revision" : "cd2a28549fc623dbd84e27fe1f063c2fbf40ccac"
+      }
+    },
+    {
+      "identity" : "imagerow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EurekaCommunity/ImageRow",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5682215c037bc5ff9b9b9ddb219f906f078e4c25"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core",
+      "state" : {
+        "revision" : "fd48276f88f3d55dbdcdc9e8cbf32541811d5865",
+        "version" : "12.1.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "http://github.com/realm/realm-swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "0ec85448bb942837c4fb402febdf37fee65e7e54"
+      }
+    }
+  ],
+  "version" : 2
+}
